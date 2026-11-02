@@ -190,6 +190,11 @@ export default function DashboardPage() {
                 earthquakes={earthquakes}
                 alerts={alerts}
                 reports={reports}
+                weather={weather}
+                flood={flood}
+                lastUpdated={lastRefreshed}
+                onRefresh={fetchData}
+                isLoading={loading}
               />
             </div>
           </div>

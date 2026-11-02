@@ -69,10 +69,10 @@ export async function GET() {
     {
       id: "provider-f-osm",
       name: "OpenStreetMap Cartographic Layer",
-      provider: "OpenStreetMap Contributors / CartoDB",
+      provider: "OpenStreetMap Contributors / Esri",
       category: "Geospatial",
       updateCadence: "Continuous Tile Serving",
-      attribution: "© OpenStreetMap contributors, © CARTO",
+      attribution: "© OpenStreetMap contributors, © Esri",
       endpointUrl: "https://tile.openstreetmap.org",
       status: "OPERATIONAL",
       lastPingMs: 65,
