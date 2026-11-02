@@ -57,6 +57,21 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #28445B;
 }
 
+.glass-effect {
+  background: rgba(16, 37, 56, 0.7);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(40, 68, 91, 0.7);
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
 /* Subtle atmospheric radar scan line animation */
 @keyframes radar-scan {
   0% { transform: translateY(-100%); opacity: 0; }
